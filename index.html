@@ -5,27 +5,51 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="..." type="image/x-icon">
+  <link rel="shortcut icon" href="escaut_manjikai.jpg" type="image/x-icon">
 
+  <script src="https://kit.fontawesome.com/dcaac382f0.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
-  <title>Az & Bcorp !</title>
+  <title>Escaut Manjikai</title>
 </head>
 
 <body>
 
-  <h1>EKIP Bcorp</h1>
+  <section class="section-1">
+    <header>
+      <img src="public/img/Logo.png" alt="">
+      <h2 class="logo">Escaut Manjikai</h2>
+      <div class="boxContainer">
+        <i class="menu-toggle-btn fas fa-bars"></i>
+        <table class="elementsContainer">
+          <tr>
+            <td>
+              <input type="text" placeholder="Rechercher" class="search">
+            </td>
+            <td>
+              <div class="material-icons">
+                <a href=""><i class="fas fa-search"></i></a>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <nav class="navigation-menu">
 
-  <p>C'est (bcp trop) nwaaar !</p>
+        <a class="active" href="#">Se connecter</a>
+        <a href="#">S'inscrire</a>
+        <a href="#"><i class="far fa-heart"></i></a>
+        <a href="#"><i class="fas fa-shopping-bag"></i></a>
 
-  <address>
+      </nav>
+    </header>
+  </section>
 
-    <br>
-    Fait le 27 octobre 2021 à 3h20
-    par moi.
-    </br>
-
-  </address>
-
+  <script type="text/javascript">
+    $(".menu-toggle-btn").click(function () {
+      $(this).toggleClass("fa-times");
+      $(".navigation-menu").toggleClass("active");
+    });
+  </script>
 </body>
 
 </html>

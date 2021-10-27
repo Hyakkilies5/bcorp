@@ -1,4 +1,107 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 
-h1 {
-    color: red;
+.section-1 {
+	max-width: 100%;
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+}
+
+.section-1 h1{
+	color: #fff;
+
+}
+
+header {
+	display: flex;
+	padding: 30px;
+	align-items: center;
+	position: fixed;
+	background-color: #fff;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transition: 500ms;
+}
+
+img {
+	max-width: 50px;
+}
+
+nav {
+	margin-right: 70px;
+}
+
+.navigation-menu a {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 15px;
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #000;
+	text-transform: uppercase;
+	border-bottom:  2px solid transparent;
+	padding: 10px 1px;
+	transition: 200ms;
+}
+
+a:hover {
+    border-color: #000;
+    transition: .5s;
+}
+
+a.active {
+    border-color: #000;
+    transition: .5s;
+}
+
+.logo {
+	flex: 1;
+	font-size: 25px;
+	font-family: sans-serif;
+	margin-left: 70px;
+	color: #000;
+}
+
+.boxContainer {
+    width: 160px;
+    height: 34px;
+    border: 4px solid #d1cccc;
+    padding: 0px 10px;
+    border-radius: 40px;
+    margin-right: 25px;
+}
+
+.elementsContainer {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.search {
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.material-icons a {
+    font-size: 20px;
+    color: #000;
+}
+
+@media (max-width:801) {
+
 }
