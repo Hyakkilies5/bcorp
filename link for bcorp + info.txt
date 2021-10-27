@@ -1,5 +1,3 @@
-/Desktop/CaverneDalibaba/#2 Tool & Project/code (geass)/Az & Bcorp Code !/bcorp
-
 git config --global user.name"name"
 git config --global user.email "email"
 
@@ -18,7 +16,39 @@ git clone + link du github
 git pull
 
 git fetch (to get everything in the repository)
+_______________________________________________________________________________________________________________
+If you want remove all local changes - including files that are untracked by git - 
+from your working copy, simply stash them:
+git stash push --include-untracked
+If you don't need them anymore, you now can drop that stash:
+git stash drop
+If you don't want to stash changes that you already staged - e.g. with git add - 
+then add the option --keep-index. 
+Note however, that this will still prevent merging if those staged changes collide with the 
+ones from upstream.
+If you want to overwrite only specific parts of your local changes, 
+there are two possibilities:
+Commit everything you don't want to overwrite and use the method above for the rest.
+Use git checkout path/to/file/to/revert for the changes you wish to overwrite. Make sure that file is not staged 
+via git reset HEAD path/to/file/to/revert.
 
+Si vous souhaitez supprimer toutes les modifications locales - y compris les fichiers non suivis par git - 
+de votre copie de travail, stockez-les simplement :
+git stash push --include-untracked
+Si vous n'en avez plus besoin, vous pouvez maintenant déposer cette réserve :
+git stash drop
+Si vous ne voulez pas cacher les modifications que vous avez déjà mises en scène - par ex. avec git add - 
+puis ajoutez l'option --keep-index. 
+Notez cependant que cela empêchera toujours la fusion si ces modifications par étapes entrent en collision 
+avec celles en amont.
+Si vous souhaitez écraser uniquement des parties spécifiques de vos modifications locales, 
+il existe deux possibilités :
+Validez tout ce que vous ne voulez pas écraser et utilisez la méthode ci-dessus pour le reste.
+Utilisez git checkout path/to/file/to/revert pour les modifications que vous souhaitez écraser.
+Assurez-vous que le fichier n'est pas mis en scène via git reset HEAD path/to/file/to/revert. 
+___________________________________________________________________________________________________________________
+git reset --hard
+git pull
 ------------------------------
 For Az ! :
 
@@ -26,3 +56,5 @@ git add 'index.html'
 git commit -m '...'
 git push  
 ------------------------------
+
+
