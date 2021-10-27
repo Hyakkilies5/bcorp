@@ -49,12 +49,20 @@ Assurez-vous que le fichier n'est pas mis en scène via git reset HEAD path/to/f
 ___________________________________________________________________________________________________________________
 git reset --hard
 git pull
+
+
 ------------------------------
 For Az ! :
 
+To send :
+
 git add 'index.html'
 git commit -m '...'
-git push  
+git push 
+
+To receive : 
+
+git pull 
 ------------------------------
 
 
