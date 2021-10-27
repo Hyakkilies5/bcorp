@@ -18,3 +18,11 @@ git clone + link du github
 git pull
 
 git fetch (to get everything in the repository)
+
+------------------------------
+For Az ! :
+
+git add 'index.html'
+git commit -m '...'
+git push  
+------------------------------
