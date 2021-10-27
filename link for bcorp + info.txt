@@ -12,3 +12,9 @@ git push
 cd = to redirect to file
 
 ls = to see what is in the file
+
+git clone + link du github
+
+git pull
+
+git fetch (to get everything in the repository)
