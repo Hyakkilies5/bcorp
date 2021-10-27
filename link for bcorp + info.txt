@@ -1,0 +1,14 @@
+/Desktop/CaverneDalibaba/#2 Tool & Project/code (geass)/Az & Bcorp Code !/bcorp
+
+git config --global user.name"name"
+git config --global user.email "email"
+
+git add -A] 
+	  ] === every files
+git add * ]
+git commit -m "Name"
+git push
+
+cd = to redirect to file
+
+ls = to see what is in the file
