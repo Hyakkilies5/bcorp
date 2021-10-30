@@ -7,9 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <script src="https://kit.fontawesome.com/dcaac382f0.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <link rel="stylesheet" href="styles/styles.css">
-  <link rel="stylesheet" href="styles/styles2.css">
-  <title>EsKai │ Promos</title>
+  <title>Escaut Manjikai</title>
 </head>
 
 <body>
@@ -19,12 +21,12 @@
     <nav class="menu" role="navigation">
 
       <div class="m-left2">
-        <a href="#"><i class="fas fa-bars"></i></a>
+        <a href="#"><i class="fas fa-shopping-bag"></i></a>
         <a href="#"><i class="far fa-user-circle"></i></a>
       </div>
 
       <div class="m-left">
-        <a class="logo" href="index.html">Escaut Manjikai</a>
+        <a class="logo" href="index.html">Eskai</a>
       </div>
 
       <div class="m-right">
@@ -35,14 +37,25 @@
       </div>
 
       <div class="m-center">
-        <a href="news_page.html">Nouveautés</a>
-        <a href="man_page.html">Homme</a>
-        <a href="women_page.html">Femme</a>
-        <a href="kid_page.html">Enfant</a>
-        <a href="#" class="active">Promos</a>
+        <a href="news_page.html" class="m-link"><i class="">Nouveautés</i></a>
+        <a href="man_page.html" class="m-link"><i class="">Homme</i></a>
+        <a href="women_page.html" class="m-link"><i class=""></i>Femme</a>
+        <a href="kid_page.html" class="m-link"><i class="">Enfant</i></a>
+        <a href="promos.html" class="m-link"><i class="">Promos</i></a>
       </div>
-    </nav>
+
+      <div class="m-nav-toggle">
+        <span class="m-toggle-icon"></span>
+      </div>
   </header>
+  <script>
+
+    $('.m-nav-toggle').click(function (e) {
+      e.preventDefault();
+      $('.m-center').toggleClass('is-open');
+    })
+
+  </script>
 </body>
 
 </html>
