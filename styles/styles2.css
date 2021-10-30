@@ -1,4 +1,4 @@
-html body{
+body{
 	overflow-x: hidden;
 	padding: 0;
 	margin: 0;
@@ -103,6 +103,7 @@ span.m-toggle-icon:after{top: -12px;}
 		background: #fff;
 		transform: translateX(100%);
 		transition: all 0.3s ease-in-out;
+		overflow-x: hidden;
 	}
 
 	.m-link {
@@ -134,6 +135,7 @@ span.m-toggle-icon:after{top: -12px;}
 		background: #fff;
 		transform: translateX(100%);
 		transition: all 0.3s ease-in-out;
+		overflow-x: hidden;
 	}
 
 	.m-link {
@@ -204,6 +206,7 @@ span.m-toggle-icon:after{top: -12px;}
 		background: #fff;
 		transform: translateX(100%);
 		transition: all 0.3s ease-in-out;
+		overflow-x: hidden;
 	}
 
 	.m-link {
@@ -275,6 +278,7 @@ span.m-toggle-icon:after{top: -12px;}
 		background: #fff;
 		transform: translateX(100%);
 		transition: all 0.3s ease-in-out;
+		overflow-x: hidden;
 	}
 
 	.m-link {
@@ -343,6 +347,7 @@ span.m-toggle-icon:after{top: -12px;}
 		background: #fff;
 		transform: translateX(100%);
 		transition: all 0.3s ease-in-out;
+		overflow-x: hidden;
 	}
 
 	.m-link {
@@ -410,6 +415,7 @@ span.m-toggle-icon:after{top: -12px;}
 		background: #fff;
 		transform: translateX(100%);
 		transition: all 0.3s ease-in-out;
+		overflow-x: hidden;
 	}
 
 	.m-link {
@@ -479,6 +485,7 @@ span.m-toggle-icon:after{top: -12px;}
 		background: #fff;
 		transform: translateX(100%);
 		transition: all 0.3s ease-in-out;
+		overflow-x: hidden;
 	}
 
 	.m-link {
@@ -535,6 +542,7 @@ span.m-toggle-icon:after{top: -12px;}
 		background: #fff;
 		transform: translateX(100%);
 		transition: all 0.3s ease-in-out;
+		overflow-x: hidden;
 	}
 
 	.m-link {
@@ -595,6 +603,7 @@ span.m-toggle-icon:after{top: -12px;}
 		background: #fff;
 		transform: translateX(100%);
 		transition: all 0.3s ease-in-out;
+		overflow-x: hidden;
 	}
 
 	.m-link {
