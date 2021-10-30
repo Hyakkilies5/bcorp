@@ -55,7 +55,7 @@ header {
 	transition: .3s;
 }
 
-.m-center a.active { 	
+.m-center.active { 	
 	border-color: #000; 
 }
 
