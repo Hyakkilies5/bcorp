@@ -1,4 +1,4 @@
-html body{
+body{
 	overflow-x: hidden;
 	padding: 0;
 	margin: 0;
@@ -406,6 +406,44 @@ span.m-toggle-icon:after{top: -12px;}
 		background: #fff;
 		transform: translateX(100%);
 		transition: all 0.3s ease-in-out;
+		overflow-x: hidden;
+	}
+
+	.m-center p {
+		display: block;
+		color: #000;
+		font-family: sans-serif;
+	}
+
+	.m-center .btn {
+		color: #fff;
+		background: #000;
+		padding: 16px 20px;
+		border-radius: 30px;
+		font-size: 14px;
+	}
+
+	.fa-heart {
+		color: #000;
+	}	
+
+	.fa-shopping-bag {
+		color: #000;
+		font-size: 20px;
+		letter-spacing: 1px;
+	}
+
+	.m-center .btn-outline {
+		color: #000;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	.m-center .btn-ourline {
+		color: #000;
+		padding: 16px 20px;
+		border-radius: 30px;
+		font-size: 16px;
 	}
 
 	.m-link {
