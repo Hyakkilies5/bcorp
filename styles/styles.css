@@ -94,6 +94,10 @@ span.m-toggle-icon:after{top: -12px;}
 
 .m-center p {
 	display: none;
+}	
+
+.other-search .fa-search {
+	display: none;
 }
 
 .m-center .fa-heart {
@@ -108,11 +112,15 @@ span.m-toggle-icon:after{top: -12px;}
 	display: none;
 }
 
-.m-center.btn {
+.m-center .btn {
 	display: none;
 }
 
-.outline {
+.m-center .btn-ourline {
+	display: none;
+}
+
+.m-right .fa-search {
 	display: none;
 }
 
@@ -185,6 +193,10 @@ span.m-toggle-icon:after{top: -12px;}
 		font-size: 21px;
 	}
 
+	.other-search .fa-search {
+		display: flex;
+	}
+
 	.fa-shopping-bag {	
 		display: none;
 	}
@@ -194,10 +206,6 @@ span.m-toggle-icon:after{top: -12px;}
 	}
 
 	.fa-user-circle {
-		display: none;
-	}
-
-	.m-right .fa-search {
 		display: none;
 	}
 }
