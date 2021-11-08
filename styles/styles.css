@@ -161,3 +161,62 @@ span.m-toggle-icon:after{top: -12px;}
 }
 
 
+@media screen and (max-width: 414px) {
+
+	.m-nav-toggle {
+		display: flex;
+		margin-top: auto;
+	}
+	.m-center {
+		position: absolute;
+		top: auto;
+		right: 0;
+		width: 275px;
+		height: 100%;
+		background: #fff;
+		transform: translateX(100%);
+		transition: all 0.3s ease-in-out;
+	}
+
+	.m-center p {
+		display: flex;
+		color: #000;
+		text-decoration: none;
+		font-family: sans-serif;
+	}
+
+	.m-link {
+		display: block;
+		color: #000;
+		align-items: center;
+		margin: 0 20px;
+		padding: 0;
+	}
+
+	.m-center .btn {
+		color: #fff;
+		background: #000;
+		padding: 16px 20px;
+		border-radius: 30px;
+		font-size: 14px;
+	}
+
+	.m-center .btn-ourline {
+		color: #000;
+		padding: 16px 20px;
+		border-radius: 30px;
+		font-size: 16px;
+	}
+
+	.fa-shopping-bag {	
+		display: none;
+	}
+
+	.fa-heart {
+		display: none;
+	}
+
+	.fa-user-circle {
+		display: none;
+	}
+}
