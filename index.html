@@ -33,11 +33,21 @@
         <span class="m-toggle-icon"></span>
       </div>
 
+      <div class="other-search">
+        <a href=""><i class="fas fa-search"></i></a>
+      </div>
+
       <div class="m-right">
         <a href="#"><i class="fas fa-shopping-bag"></i></a>
         <a href="#"><i class="far fa-heart"></i></a>
         <a href="#"><i class="far fa-user-circle"></i></a>
         <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+
+      <div class="m-other">
+
+        <h4>Recherche populaires</h4>
+
       </div>
 
       <div class="m-center">
@@ -51,8 +61,6 @@
         <p>
           Devenir membre de l'Eskai<br>
           pour découvrir des produits de qualitès.
-          <br>
-          <a href="#" class="btn-outline">En savoir plus</a>
         </p>
         <button class="btn">Nous rejoindre</button>
         <br>
@@ -68,6 +76,11 @@
     $('.m-nav-toggle').click(function (e) {
       e.preventDefault();
       $('.m-center').toggleClass('is-open');
+    })
+
+    $('.fa-search').click(function (e) {
+      e.preventDefault();
+      $('.m-other').toggleClass('is-open');
     })
 
   </script>
