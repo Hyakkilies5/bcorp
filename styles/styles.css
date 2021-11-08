@@ -149,10 +149,19 @@ span.m-toggle-icon:after{top: -12px;}
 		right: 0;
 		left: 0;
 		width: 100%;
-		height: auto;
+		height: 100%;
 		background: #fff;
 		transform: translateY(-100%);
 		transition: all 0.3s ease-in-out;
+	}
+
+	.m-other p {
+		display: block;
+		color: rgb(102, 100, 100);
+		font-size: 15px;
+		font-family: sans-serif;
+		font-weight: bold;
+		align-items: center;
 	}
 
 	.m-center p {
@@ -171,6 +180,7 @@ span.m-toggle-icon:after{top: -12px;}
 	}
 
 	.m-center .btn {
+		display: flex;
 		color: #fff;
 		background: #000;
 		padding: 10px 18px;
@@ -179,6 +189,7 @@ span.m-toggle-icon:after{top: -12px;}
 	}
 	
 	.m-center .btn-ourline {
+		display: flex;
 		color: #000;
 		padding: 10px 18px;
 		border-radius: 24px;
@@ -189,7 +200,7 @@ span.m-toggle-icon:after{top: -12px;}
 		color: #000;
 		float: right;
 		margin-top: 23px;
-		margin-right: 15px;
+		margin-right: 20px;
 		font-size: 21px;
 	}
 
