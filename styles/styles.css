@@ -104,10 +104,6 @@ span.m-toggle-icon:after{top: -12px;}
 	display: none;
 } 
 
-.m-center .fa-shopping-bag {
-	display: none;
-} 
-
 .m-other {
 	display: none;
 }
@@ -125,6 +121,10 @@ span.m-toggle-icon:after{top: -12px;}
 }
 
 img {
+	display: none;
+}
+
+.m-endpage {
 	display: none;
 }
 
@@ -178,7 +178,7 @@ img {
 		color: rgb(102, 100, 100);
 		text-decoration: none;
 		font-family: sans-serif;
-
+		margin: 0;
 	}
 
 	.m-center .m-link {
@@ -196,6 +196,7 @@ img {
 		padding: 10px 18px;
 		border-radius: 24px;
 		font-size: 14px;
+		margin-top: 15px;
 	}
 	
 	.m-center .btn-ourline {
@@ -219,36 +220,25 @@ img {
 		display: flex;
 	}
 
-	.fa-shopping-bag {	
+	.m-right {
 		display: none;
 	}
 
-	.fa-heart {
-		display: none;
-	}
-
-	.fa-user-circle {
-		display: none;
-	}
-
-	.endpage {
-		display: flex;
-		color: #000;
+	.m-endpage {
+		display: block;
+		color: rgb(102, 100, 100);
+		margin-top: 20px;
 		text-decoration: none;
+		font-size: 18px;
 		font-family: sans-serif;
-		font-size: 20px;
-		font-weight: bold;
+		padding: 0;
 	}
 
-	.endpage  .fa-shopping-bag {
-		display: flex;
+	.m-endpage i {
+
 		color: #000;
-		font-size: 18px;
+		margin-right: 10px;
+
 	}
 
-	.endpage  .fa-user-circle {
-		display: flex;
-		color: #000;
-		font-size: 18px;
-	}
 }
