@@ -234,6 +234,8 @@ img {
 		display: flex;
 		font-size: 25px;
 		margin-top: 15px;
+		float: right;
+		margin-right: 20px;
 	}
 
 	.other-close .fa-times {
