@@ -57,6 +57,10 @@ header {
 	right: 0%;
 }
 
+.next-menu.active {
+	right: 0%;
+}
+
 .m-other.is-open {
 	transform: translateX(0);
 }
@@ -141,8 +145,7 @@ img {
 		align-items: center;
 	}
 
-	.m-center h2 {
-		display: flex;
+	.other-infos h2 {
 		color: rgb(102, 100, 100);
 		text-decoration: none;
 		font-family: sans-serif;
@@ -186,6 +189,7 @@ img {
 		background: #fff;
 		color: #000;
 		padding-left: 50px;
+		transition: all 0.3s ease-in-out;
 	}
 
 	.rotate {

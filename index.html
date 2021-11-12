@@ -62,49 +62,69 @@
           <div class="item">
             <a class="next-btn"><i class="fas fa-angle-right down"></i>Nouveautés</a>
             <div class="next-menu">
-              <a href="" class="next-item">za</a>
-              <a href="" class="next-item">za</a>
-              <a href="" class="next-item">za</a>
+              <a class="next-item">za<i class="fas fa-angle-right down"></i></a>
+              <div>
+
+              </div>
+              <a class="next-item">za<i class="fas fa-angle-right down"></i></a>
+              <div>
+
+              </div>
+              <a class="next-item">za<i class="fas fa-angle-right down"></i></a>
+              <div>
+
+              </div>
             </div>
           </div>
           <div class="item">
             <a class="next-btn"><i class="fas fa-angle-right down"></i>Homme</a>
             <div class="next-menu">
-              <a href="" class="next-item">za</a>
-              <a href="" class="next-item">za</a>
-              <a href="" class="next-item">za</a>
+              <a class="next-item">za<i class="fas fa-angle-right down"></i></a>
+              <a class="next-item">za<i class="fas fa-angle-right down"></i></a>
+              <a class="next-item">za<i class="fas fa-angle-right down"></i></a>
             </div>
           </div>
           <div class="item">
             <a class="next-btn"><i class="fas fa-angle-right down"></i>Femme</a>
             <div class="next-menu">
-              <a href="" class="next-item">za</a>
-              <a href="" class="next-item">za</a>
-              <a href="" class="next-item">za</a>
+              <a class="next-item">za<i class="fas fa-angle-right down"></i></a>
+              <a class="next-item">za<i class="fas fa-angle-right down"></i></a>
+              <a class="next-item">za<i class="fas fa-angle-right down"></i></a>
             </div>
           </div>
           <div class="item">
             <a class="next-btn"><i class="fas fa-angle-right down"></i>Enfant</a>
             <div class="next-menu">
-              <a href="" class="next-item">za</a>
-              <a href="" class="next-item">za</a>
-              <a href="" class="next-item">za</a>
+              <a class="next-item">za<i class="fas fa-angle-right down"></i></a>
+              <a class="next-item">za<i class="fas fa-angle-right down"></i></a>
+              <a class="next-item">za<i class="fas fa-angle-right down"></i></a>
             </div>
           </div>
           <div class="item">
             <a class="next-btn"><i class="fas fa-angle-right down"></i>Promos</a>
             <div class="next-menu">
-              <a href="" class="next-item">za</a>
-              <a href="" class="next-item">za</a>
-              <a href="" class="next-item">za</a>
+              <a class="next-item">za<i class="fas fa-angle-right down"></i></a>
+              <div>
+
+              </div>
+              <a class="next-item">za<i class="fas fa-angle-right down"></i></a>
+              <div>
+
+              </div>
+              <a class="next-item">za<i class="fas fa-angle-right down"></i></a>
+              <div>
+
+              </div>
             </div>
           </div>
         </div>
 
-        <h2>
-          Devenir membre de l'Eskai<br>
-          pour découvrir des produits de qualitès.
-        </h2>
+        <div class="other-infos">
+          <h2>
+            Devenir membre de l'Eskai<br>
+            pour découvrir des produits de qualitès.
+          </h2>
+        </div>
         <button class="btn">Nous rejoindre</button>
         <button class="btn-ourline">S'identifier</button>
 
@@ -136,6 +156,11 @@
 
     $('.next-btn').click(function () {
       $(this).next('.next-menu').slideToggle();
+      $(this).find('.down').toggleClass('rotate');
+    });
+
+    $('.next-btn').click(function () {
+      $(this).next('.next-item').slideToggle();
       $(this).find('.down').toggleClass('rotate');
     });
 
