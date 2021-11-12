@@ -118,7 +118,7 @@ img {
 		width: 315px;
 		height: 100vh;
 		background: #fff;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.4s ease-in-out;
 		position: fixed;
 		overflow-y: auto;
 	}
@@ -133,16 +133,9 @@ img {
 		height: 100%;
 		background: #fff;
 		transform: translateY(-100%);
-		transition: all 0.3s ease-in-out;
-	}
-
-	.m-other p {
-		display: block;
-		color: rgb(102, 100, 100);
-		font-size: 15px;
-		font-family: sans-serif;
-		font-weight: bold;
-		align-items: center;
+		transition: all 0.4s ease-in-out;
+		position: fixed;
+		overflow-y: auto;
 	}
 
 	.other-infos h2 {
@@ -213,6 +206,7 @@ img {
 		border-radius: 24px;
 		font-size: 14px;
 		margin-top: 10px;
+		margin-bottom: 15px;
 	}
 
 	.other-search .fa-search {
@@ -239,16 +233,66 @@ img {
 	.other-return .fa-times {
 		display: flex;
 		font-size: 25px;
-		float: right;
 		margin-top: 15px;
-		margin-right: 25px;
+	}
+
+	.other-close .fa-times {
+		display: flex;
+		font-size: 28px;
+		float: right;
+		margin-top: 20px;
+		margin-right: -145px;
+		padding: 10px 15px;
+		background: #efefef;
+		border-radius: 100px;
 	}
 
 	.m-right {
 		display: none;
 	}
 
-	.m-other p {
+	.m-other h3 {
+		color: rgb(102, 100, 100);
+		display: flex;
+		margin-top: 125px;
+		margin-left: 20px;
+		font-family: sans-serif;
+		text-decoration: none;
+	}
+
+	.search {
+		width: 200px;
+		
+		margin-top: 20px;
+		float: left;
+		margin-left: -190px;
+		display: flex;
+	}
+	
+	.search__input {
+		width: 180px;
+		height: 16px;
+		font-size: 18px;
+		background-color: #efefef;
+		border: none;
+		padding: 15px 30px;
+		border-radius: 100px;
+		margin-right: -50px;
+	}
+
+	.search__input:focus {
+		outline: none;
+		background-color: #f0eeee;
+	}
+	
+	.search__input::-webkit-input-placeholder {
+		font-size: 18px;
+		color: #ccc;
+	}
+
+	.fa-search {
 		color: #000;
+		font-size: 22px;
+		margin-top: 12px;
 	}
 }

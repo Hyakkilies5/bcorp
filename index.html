@@ -45,9 +45,19 @@
       </div>
 
       <div class="m-other">
-        <p>
+
+        <h3>
           Recherches populaires
-        </p>
+        </h3>
+
+        <form action="#" class="search">
+          <input type="text" class="search__input" placeholder="Rechercher">
+          <i class="fas fa-search"></i>
+        </form>
+
+        <div class="other-close">
+          <span class="fas fa-times"></span>
+        </div>
       </div>
 
       <div class="m-center">
@@ -99,6 +109,14 @@
               <a class="next-item">Promotions Enfants</i></a>
             </div>
           </div>
+          <div class="item">
+            <a class="next-btn"><i class="fas fa-angle-right down"></i>Collections</a>
+            <div class="next-menu">
+              <a class="next-item">EkipAz</i></a>
+              <a class="next-item">BCorp</i></a>
+              <a class="next-item">BDD</i></a>
+            </div>
+          </div>
         </div>
 
         <div class="other-infos">
@@ -134,7 +152,11 @@
       $('.m-other').toggleClass('is-open');
     });
 
-    // this is for the 'next-menu'
+    $('.fa-times').click(function () {
+      $('.m-other').removeClass('is-open');
+    });
+
+    // this is for the 'next-menu'.search
 
     $('.next-btn').click(function () {
       $(this).next('.next-menu').slideToggle();
