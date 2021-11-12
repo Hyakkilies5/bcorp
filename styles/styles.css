@@ -54,7 +54,7 @@ header {
 } 
 
 .m-center.active {
-	right: 0%;
+	transform: translateX(0);
 }
 
 .next-menu.active {
@@ -114,11 +114,12 @@ img {
 	.m-center {
 		position: absolute;
 		top: auto;
-		right: -100%;
+		right: 0;
 		width: 315px;
 		height: 100vh;
 		background: #fff;
 		transition: all 0.4s ease-in-out;
+		transform: translateX(100%);
 		position: fixed;
 		overflow-y: auto;
 	}
