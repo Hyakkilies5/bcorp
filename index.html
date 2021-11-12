@@ -29,12 +29,12 @@
         <a class="logo" href="index.html">Eskai</a>
       </div>
 
-      <div class="m-nav-toggle">
-        <span class="m-toggle-icon"></span>
+      <div class="other-burger">
+        <span class="fas fa-bars"></span>
       </div>
 
       <div class="other-search">
-        <a href=""><i class="fas fa-search"></i></a>
+        <span class="fas fa-search"></span>
       </div>
 
       <div class="m-right">
@@ -54,38 +54,90 @@
 
         <img src="img/Eskai.png" alt="">
 
-        <a href="news_page.html" class="m-link">Nouveautés</a>
-        <a href="man_page.html" class="m-link">Homme</a>
-        <a href="women_page.html" class="m-link">Femme</a>
-        <a href="kid_page.html" class="m-link">Enfant</a>
-        <a href="promos.html" class="m-link">Promos</a>
+        <div class="other-return">
+          <span class="fas fa-times"></span>
+        </div>
 
-        <p>
+        <div class="menu">
+          <div class="item">
+            <a class="next-btn"><i class="fas fa-angle-right down"></i>Nouveautés</a>
+            <div class="next-menu">
+              <a href="" class="next-item">za</a>
+              <a href="" class="next-item">za</a>
+              <a href="" class="next-item">za</a>
+            </div>
+          </div>
+          <div class="item">
+            <a class="next-btn"><i class="fas fa-angle-right down"></i>Homme</a>
+            <div class="next-menu">
+              <a href="" class="next-item">za</a>
+              <a href="" class="next-item">za</a>
+              <a href="" class="next-item">za</a>
+            </div>
+          </div>
+          <div class="item">
+            <a class="next-btn"><i class="fas fa-angle-right down"></i>Femme</a>
+            <div class="next-menu">
+              <a href="" class="next-item">za</a>
+              <a href="" class="next-item">za</a>
+              <a href="" class="next-item">za</a>
+            </div>
+          </div>
+          <div class="item">
+            <a class="next-btn"><i class="fas fa-angle-right down"></i>Enfant</a>
+            <div class="next-menu">
+              <a href="" class="next-item">za</a>
+              <a href="" class="next-item">za</a>
+              <a href="" class="next-item">za</a>
+            </div>
+          </div>
+          <div class="item">
+            <a class="next-btn"><i class="fas fa-angle-right down"></i>Promos</a>
+            <div class="next-menu">
+              <a href="" class="next-item">za</a>
+              <a href="" class="next-item">za</a>
+              <a href="" class="next-item">za</a>
+            </div>
+          </div>
+        </div>
+
+        <h2>
           Devenir membre de l'Eskai<br>
           pour découvrir des produits de qualitès.
-        </p>
+        </h2>
         <button class="btn">Nous rejoindre</button>
         <button class="btn-ourline">S'identifier</button>
 
         <a href="#" class="m-endpage"><i class="fas fa-shopping-bag"></i> Panier</a>
-        <a href="#" class="m-endpage"><i class="fas fa-user-circle"></i> Compte</a>
-        <a href="#" class="m-endpage"><i class="fas fa-question-circle"></i> Contact</a>
-
+        <a href="#" class="m-endpage"><i class="far fa-question-circle"></i> Contact</a>
 
       </div>
   </header>
 
   <script>
 
-    $('.m-nav-toggle').click(function (e) {
-      e.preventDefault();
-      $('.m-center').toggleClass('is-open');
-    })
+    // this is for the 'side bar menu'
 
-    $('.fa-search').click(function (e) {
-      e.preventDefault();
+    $('.fa-bars').click(function () {
+      $('.m-center').addClass('active');
+    });
+
+    $('.fa-times').click(function () {
+      $('.m-center').removeClass('active');
+    });
+
+    // this is for the 'research navigation'
+
+    $('.fa-search').click(function () {
       $('.m-other').toggleClass('is-open');
-    })
+    });
+
+    // this is for the 'next-menu'
+
+    $('.next-btn').click(function () {
+      $(this).next('.next-menu').slideToggle();
+      $(this).find('.down').toggleClass('rotate');
+    });
 
   </script>
 
