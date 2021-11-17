@@ -304,7 +304,7 @@ img {
 		font-size: 22px;
 		font-family: sans-serif;
 		color: #000;
-		text-decoration: #000;
+		text-decoration: none;
 		line-height: 1;
 		padding: 10px;
 	}
@@ -316,5 +316,6 @@ img {
 		align-items: center;
 		justify-content: center;
 		display: flex;
+		margin-bottom: 200px;
 	}
 }
