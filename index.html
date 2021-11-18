@@ -63,8 +63,6 @@
 
       <div class="m-center">
 
-        <img src="img/Eskai.png" alt="">
-
         <div class="other-return">
           <span class="fas fa-times"></span>
         </div>
@@ -182,11 +180,13 @@
         <a class="footer-end"><i class="fas fa-map-marker-alt"></i>France</a>
       </div>
 
-      <h5>
-        2021 Eskai, Inc. Tous droits réservés
-      </h5>
-    </div>
-    </div>
+      <div class="language-select">
+        <a class="select-icons"><i class="fas fa-times"></i></a>
+
+        <h6>
+          Sélectionnez votre lieu
+        </h6>
+      </div>
     </div>
   </footer>
 
@@ -221,6 +221,16 @@
 
     $('.footer-btn').click(function () {
       $(this).next('.footer-menu').slideToggle();
+    });
+
+    // this is for the 'select language'
+
+    $('.fa-map-marker-alt').click(function () {
+      $('.language-select').toggleClass('on-open');
+    });
+
+    $('.fa-times').click(function () {
+      $('.language-select').removeClass('on-open');
     });
   </script>
 
