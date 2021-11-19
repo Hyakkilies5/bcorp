@@ -264,14 +264,64 @@
       </div>
 
       <div class="language-select">
-        <div class="title">
-          <a class="language-title" href="index.html">Eskai</a>
-          <h4>
-            Sélectionnez votre langue
-          </h4>
+        <div class="language-close">
+          <span class="fas fa-times"></span>
+        </div>
+        <h4>
+          Eskai
+        </h4>
+        <div class="language-menu">
+          <div class="language-item">
+            <a class="language-btn"><i class="fas fa-angle-right in"></i>Africa</a>
+            <div class="l-menu">
+              <a class="language-out">Afrique du Sud</a>
+            </div>
+          </div>
+          <div class="language-item">
+            <a class="language-btn"><i class="fas fa-angle-right in"></i>Amérique</a>
+            <div class="l-menu">
+              <a class="language-out"><i class=""></i>Argentine</a>
+              <a class="language-out"><i class=""></i>Brésil</a>
+              <a class="language-out"><i class=""></i>Canada</a>
+              <a class="language-out"><i class=""></i>Colombie</a>
+              <a class="language-out"><i class=""></i>Amérique Latine</a>
+              <a class="language-out"><i class=""></i>États-Unis</a>
+            </div>
+          </div>
+          <div class="language-item">
+            <a class="language-btn"><i class="fas fa-angle-right in"></i>Asie</a>
+            <div class="l-menu">
+              <a class="language-out"><i class=""></i>Australie</a>
+              <a class="language-out"><i class=""></i>Chine</a>
+              <a class="language-out"><i class=""></i>Inde</a>
+              <a class="language-out"><i class=""></i>Indonésie</a>
+              <a class="language-out"><i class=""></i>Japon</a>
+              <a class="language-out"><i class=""></i>Corée</a>
+              <a class="language-out"><i class=""></i>Malaisie</a>
+              <a class="language-out"><i class=""></i>Nouvelle-Zélande</a>
+            </div>
+          </div>
+          <div class="language-item">
+            <a class="language-btn"><i class="fas fa-angle-right in"></i>Europe</a>
+            <div class="l-menu">
+              <a class="language-out"><i class=""></i>Belgique</a>
+              <a class="language-out"><i class=""></i>Danemark</a>
+              <a class="language-out"><i class=""></i>Allemagne</a>
+              <a class="language-out"><i class=""></i>Grèce</a>
+              <a class="language-out"><i class=""></i>Espagne</a>
+              <a class="language-out"><i class=""></i>France</a>
+              <a class="language-out"><i class=""></i>Italie</a>
+              <a class="language-out"><i class=""></i>Hongry</a>
+            </div>
+          </div>
+          <div class="language-item">
+            <a class="language-btn"><i class="fas fa-angle-right in"></i>Moyen-Orient</a>
+            <div class="l-menu">
+              <a class="language-out">Moyen-Orient</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
   </footer>
 
   <script type="text/javascript">
@@ -301,6 +351,11 @@
     $('.next-btn').click(function () {
       $(this).next('.next-menu').slideToggle();
       $(this).find('.down').toggleClass('rotate');
+    });
+
+    $('.language-btn').click(function () {
+      $(this).next('.l-menu').slideToggle();
+      $(this).find('.in').toggleClass('rotate');
     });
 
     $('.footer-btn').click(function () {
