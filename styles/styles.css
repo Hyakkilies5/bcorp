@@ -115,7 +115,6 @@ img {
 @media screen and (max-width: 414px) {
 
 	.m-center {
-		position: absolute;
 		top: auto;
 		right: 0;
 		width: 315px;
@@ -124,11 +123,10 @@ img {
 		transition: all 0.4s ease-in-out;
 		transform: translateX(100%);
 		position: fixed;
-		overflow-y: auto;
+		overflow-y: hidden;
 	}
 
 	.m-other { 
-		position: absolute;
 		display: flex;
 		top: 0;
 		right: 0;
@@ -139,7 +137,7 @@ img {
 		transform: translateY(-100%);
 		transition: all 0.4s ease-in-out;
 		position: fixed;
-		overflow-y: auto;
+		overflow-y: hidden;
 	}
 
 	.other-infos h2 {
@@ -526,6 +524,7 @@ img {
 		line-height: 64px;
 		text-decoration: none;
 		font-weight: bold;
+		text-transform: uppercase;
 	}
 
 	.in {
@@ -543,7 +542,7 @@ img {
 	.l-menu a {
 		display: block;
 		color: #000;
-		margin-left: -130px;
+		margin-left: -80px;
 	}
 
 	.l-menu .language-out {
@@ -552,5 +551,11 @@ img {
 		font-family: sans-serif;
 		margin-top: 20px;
 		transition:  0.3s ease-in-out;
+		margin-bottom: 20px;
+	}
+
+	.title-l h4 {
+		display: flex;
+		margin-left: 170px;
 	}
 }
