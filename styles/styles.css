@@ -115,6 +115,7 @@ img {
 @media screen and (max-width: 414px) {
 
 	.m-center {
+		position: absolute;
 		top: auto;
 		right: 0;
 		width: 315px;
@@ -127,6 +128,7 @@ img {
 	}
 
 	.m-other { 
+		position: absolute;
 		display: flex;
 		top: 0;
 		right: 0;
