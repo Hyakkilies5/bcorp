@@ -64,10 +64,6 @@ header {
 	transform: translateY(0);
 }
 
-.language-select.on-open {
-	transform: translateY(0);
-}
-
 .other-search .fa-search {
 	display: none;
 }
@@ -121,10 +117,10 @@ img {
 		width: 315px;
 		height: 100vh;
 		background: #fff;
-		transition: all 0.4s ease-in-out;
+		transition: all 0.3s ease-in-out;
 		transform: translateX(100%);
 		position: fixed;
-		overflow-y: hidden;
+		overflow-y: auto;
 	}
 
 	.m-other { 
@@ -137,9 +133,9 @@ img {
 		height: 100%;
 		background: #fff;
 		transform: translateY(-100%);
-		transition: all 0.4s ease-in-out;
+		transition: all 0.3s ease-in-out;
 		position: fixed;
-		overflow-y: hidden;
+		overflow-y: auto;
 	}
 
 	.other-infos h2 {
@@ -149,6 +145,13 @@ img {
 		font-family: sans-serif;
 		font-size: 15px;
 		margin-left: 10px;
+	}
+
+	h4 {
+		color: #000;
+		font-size: 18px;
+		font-family: sans-serif;
+		margin-left: 40px;
 	}
 
 	.m-center .menu {
@@ -458,106 +461,5 @@ img {
 		margin-top: 15px;
 		margin-left: 10px;
 		margin-bottom: 30px;
-	}
-
-	.language-select { 
-		position: absolute;
-		display: flex;
-		top: 0;
-		right: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: #fff;
-		transform: translateY(-100%);
-		transition: all 0.4s ease-in-out;
-		position: fixed;
-		overflow-y: auto;
-	}
-
-	.language-title {
-		color: #000;
-		text-decoration: none;
-		font-family: sans-serif;
-		font-size: 28px;
-
-		margin: 0;
-		padding: 0;
-		margin-left: 165px;
-	}
-
-	.language-close .fa-times {
-		display: flex;
-		font-size: 22px;
-		float: right;
-		margin-top: 12px;
-		margin-right: -395px;
-		padding: 10px 15px;
-		background: #efefef;
-		border-radius: 100px;
-	}
-
-	.language-select h4 {
-		display: flex;
-		margin-top: 70px;
-		margin-left: 41%;
-		color: #000;
-		font-family: sans-serif;
-		font-size: 30px;
-	}
-
-	.language-menu {
-		margin-top: 170px;
-		width: 100%;
-	}
-
-	.language-menu .language-item {
-		position: relative;
-		cursor: pointer;
-	}
-
-	.language-btn {
-		color: #000;
-		font-size: 28px;
-		text-decoration: none;
-		font-family: sans-serif;
-		left: 0;
-		margin-left: -200px;
-		line-height: 64px;
-		text-decoration: none;
-		font-weight: bold;
-		text-transform: uppercase;
-	}
-
-	.in {
-		position: absolute;
-		right: 0;
-		margin-top: 20px;
-		margin-right: 40px;
-		transition: 0.3s ease;
-	}
-
-	.l-menu {
-		display: none;
-	}
-
-	.l-menu a {
-		display: block;
-		color: #000;
-		margin-left: -80px;
-	}
-
-	.l-menu .language-out {
-		font-size: 25px;
-		text-decoration: none;
-		font-family: sans-serif;
-		margin-top: 20px;
-		transition:  0.3s ease-in-out;
-		margin-bottom: 20px;
-	}
-
-	.title-l h4 {
-		display: flex;
-		margin-left: 170px;
-	}
+	}	
 }
