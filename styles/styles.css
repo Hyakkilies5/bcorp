@@ -12,7 +12,6 @@ header {
 	width: 100%;
 	height: 66px;
 	line-height: 66px;
-	border-bottom: 1px solid #000;
 }
 
 .m-left {
@@ -319,6 +318,182 @@ img {
 		line-height: 1;
 		padding: 10px;
 		margin: 12px 20;
+	}
+
+	.col-md-8 h2 {
+		margin-left: 40px;
+		margin-top: 30px;
+		font-size: 24px;
+		font-family: sans-serif;
+	}
+
+	.auth-first {
+		margin-top: 60px;
+	}
+
+	.auth-first h1 {
+		font-size: 28px;
+		margin-left: 40%;
+		color: #000;
+		font-family: sans-serif;
+	}
+
+	.auth-first h2 {
+		color: #000;
+		margin-left: 20%;
+		font-family: sans-serif;
+	}
+
+	.auth-first p {
+		color: rgba(82, 77, 77, 0.993);
+		margin-left: 22%;
+		font-size: 15px;
+	}
+
+	.container form .user-details {
+		display: block;
+	}
+
+	.container form .user-details .input-box {
+		margin-left: 85px;
+		height: 45px;
+	}
+
+	.user-details .input-box input {
+		width: 70%;
+		height: 30px;
+		color: black;
+		outline: none;
+		padding-left: 15px;
+		border-radius: 5px;
+		border: 1px solid gray;
+	}
+
+	.container form .user-sex .input-bex {
+		height: 45px;
+		margin-left: 85px;
+	}
+
+	.container .user-sex {
+		display: flex;
+	}
+
+	.user-sex .input-bex input {
+		width: 40%;
+		height: 30px;
+		color: black;
+		outline: none;
+		padding-left: 15px;
+		border-radius: 5px;
+		border: 1px solid gray;
+	}
+
+	.user-sex .input-bix input {
+		width: 40%;
+		height: 30px;
+		color: black;
+		outline: none;
+		padding-left: 15px;
+		border-radius: 5px;
+		border: 1px solid gray;
+	}
+
+	.container p a {
+		color: rgb(65, 62, 62);
+	}
+
+	.inscrit-end .btn-primo {
+		color: #fff;
+		background: #000;
+		width: 60%;
+		height: 40px;
+		margin-left: 85px;
+		border-radius: 2px;
+		border: 1px solid #000;
+		font-family: sans-serif;
+	}
+
+	.inscrit-end p a {
+		color: #000;
+	}
+
+	.inscrit-end p {
+		color: gray;
+		margin-left: 30%;
+		margin-bottom: 60px;
+	}
+
+	.auth-second {
+		margin-top: 60px;
+	}
+
+	.auth-second h1 {
+		font-size: 28px;
+		margin-left: 40%;
+		color: #000;
+		font-family: sans-serif;
+	}
+
+	.auth-second h2 {
+		color: #000;
+		margin-left: 18%;
+		font-family: sans-serif;
+		margin-bottom: 30px;
+	}
+
+	.auth-second p {
+		color: rgba(82, 77, 77, 0.993);
+		margin-left: 22%;
+		font-size: 15px;
+	}
+
+	.identif-end .btn-second {
+		color: #fff;
+		background: #000;
+		width: 60%;
+		height: 40px;
+		margin-left: 85px;
+		border-radius: 2px;
+		border: 1px solid #000;
+		font-family: sans-serif;
+		margin-top: 20px;
+		outline: none;
+	}
+
+	.identif-end p {
+		color: gray;
+		margin-left: 15%;
+		margin-top: 20px;
+		margin-bottom: 230px;
+		outline: none;
+	}
+
+	.session-mdp {
+		display: flex;
+	}
+
+	.session-mdp a {
+		font-family: sans-serif;
+		color: gray;
+		text-decoration: none;
+		outline: none;
+	}
+
+	.session-mdp a i {
+		font-size: 14px;
+		margin-right: 15px;
+		outline: none;
+	}
+	
+	.session-mdp .mdp {
+		font-size: 14px;
+		margin-left: 20px;
+	}
+
+	.session-mdp p a {
+		color: gray;
+		text-decoration: none;
+		outline: none;
 	}
 
 	footer {
